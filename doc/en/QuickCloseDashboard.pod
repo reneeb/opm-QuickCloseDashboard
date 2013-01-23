@@ -1,0 +1,37 @@
+=head1 NAME
+
+QuickCloseDashboard
+
+=head1 DESCRIPTION
+
+This add on is an enhancement for the QuickClose add on. It adds a button to the dashboard widgets for each ticket, so the agent can close the ticket from that overview.
+
+In contrast to the QuickClose add on, the agent can B<not> choose one of the configured reasons to close the ticket. The button closes the ticket for a (globally) configured reason.
+
+=head1 CONFIGURATION
+
+The OTRS adminstrator has to configure two values in SysConfig:
+
+=over 4
+
+=item * QuickClose::StandardID
+
+This is the id of the configured quick close reason that is taken to close the ticket
+
+=item * QuickCloseDashboard::ButtonLabel
+
+The label for the buttons on the dashboard
+
+=back
+
+=head1 PREREQUESITS
+
+You have to install the QuickClose add on (http://opar.perl-services.de/bin/index.cgi/dist/QuickClose) first.
+
+=head1 CHANGES
+
+ 0.0.1 initial release
+
+=head1 AUTHOR
+
+Renee Baecker, Perl-Services.de

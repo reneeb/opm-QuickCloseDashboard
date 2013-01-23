@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<otrs_config version="1.0" init="Application">
+    <CVS>$Id: QuickCloseDashboard.xml,v 1.1.1.1 2011/04/15 07:49:58 rb Exp $</CVS>
+    <ConfigItem Name="QuickCloseDashboard::ButtonLabel" Required="0" Valid="1">
+        <Description Lang="en">Label for the close button on dashboard.</Description>
+        <Description Lang="de">Text für die den Schließen-Button auf der Übersichtsseite.</Description>
+        <Group>QuickClose</Group>
+        <SubGroup>Dashboard</SubGroup>
+        <Setting>
+            <String Regex="">Close</String>
+        </Setting>
+    </ConfigItem>
+</otrs_config>
