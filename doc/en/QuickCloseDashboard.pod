@@ -30,6 +30,7 @@ You have to install the QuickClose add on (http://opar.perl-services.de/bin/inde
 
 =head1 CHANGES
 
+ 4.0.1 updates for OTRS 4
  0.0.1 initial release
 
 =head1 AUTHOR
