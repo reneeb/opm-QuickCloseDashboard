@@ -11,7 +11,7 @@
     <PackageRequired Version="4.0.1">QuickClose</PackageRequired>
     <Filelist>
         <File Permission="644" Location="Kernel/Config/Files/QuickCloseDashboard.xml"/>
-        <File Permission="644" Location="Kernel/Output/HTML/Standard/AgentDashboardTicketGeneric.dtl"/>
+        <File Permission="644" Location="Kernel/Output/HTML/Standard/AgentDashboardTicketGeneric.tt"/>
         <File Permission="644" Location="doc/en/QuickCloseDashboard.pod"/>
     </Filelist>
 </otrs_package>
