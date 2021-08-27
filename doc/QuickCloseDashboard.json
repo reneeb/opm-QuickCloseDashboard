@@ -1,0 +1,47 @@
+{
+    "name": "QuickCloseDashboard",
+    "version": "6.0.1",
+    "framework": [
+        "6.0.x"
+    ],
+    "vendor": {
+        "name":  "Perl-Services.de",
+        "url": "http://www.perl-services.de"
+    },
+    "license": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007",
+    "description" : {
+        "en": "A module to close tickets more quickly from Dashboard.",
+        "de": "Ein Modul, mit dem Tickets schneller/einfacher aus der Übersichtsseite heraus geschlossen werden können."
+    },
+    "required" : {
+        "package" : {
+            "QuickClose" : "6.0.1"
+        }
+    },
+    "intro": [
+        {
+            "type": "Install",
+            "version": 0,
+            "lang": "en",
+            "title": "Thank you!",
+            "text": "Thank you for choosing the QuickCloseDashboard module."
+        },
+        {
+            "type": "Install",
+            "version": 0,
+            "lang": "de",
+            "title": "Vielen Dank!",
+            "text": "Vielen Dank für die Wahl des QuickCloseDashboard Moduls."
+        },
+        {
+            "type": "Install",
+            "version": 0,
+            "lang": "hu",
+            "title": "Köszönjük!",
+            "text": "Köszönjük, hogy a QuickCloseDashboard modult választotta."
+        }
+    ],
+    "exclude_files" : [
+        "doc/QuickCloseDashboard.json"
+    ]
+}
